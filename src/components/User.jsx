@@ -2,7 +2,6 @@ import React, { useEffect, useRef, useState } from "react";
 import useSound from "use-sound";
 import play from "../assets/sounds/play.m4a";
 import logo from "../assets/logo.png";
-import data, { shuffleArray } from "../components/data";
 const User = ({ setUser }) => {
   let [letsPlay, { pause }] = useSound(play);
   const [isPlaying, setIsPlaying] = useState(true);
@@ -14,7 +13,7 @@ const User = ({ setUser }) => {
     inp.current.value && setUser(inp.current.value);
     setIsPlaying(false);
     pause();
-    shuffleArray(data);
+    
   };
   return (
     <div className="users">
