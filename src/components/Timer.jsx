@@ -7,9 +7,9 @@ const Timer = ({ questionNumber, setStop, pauseTimer }) => {
   let [clockticked] = useSound(clocktick);
   // let [wrongEnd] = useSound(wrong);
 
-  const [clock, setclock] = useState(30);
+  const [clock, setclock] = useState();
   useEffect(() => {
-    setclock(30);
+    setclock();
   }, [questionNumber]);
   useEffect(() => {
     if (pauseTimer) {

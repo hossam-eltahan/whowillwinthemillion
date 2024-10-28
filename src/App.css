@@ -84,15 +84,15 @@
   font-weight: 100;
 }
 .lists .item .amount {
-  font-size: 18px;
+  font-size: 14px;
 }
 @media (max-width: 768px) {
   .lists .item {
-    font-size: 10px;
+    font-size: 6px;
     flex-direction: column;
   }
   .lists .item .amount {
-    font-size: 10px;
+    font-size: 8px;
   }
 }
 .users {

@@ -102,6 +102,7 @@ const Questions = ({
   return (
     <>
       <div className="question text-[35px] marhey-font">{question?.question}</div>
+      
       <button 
         onClick={useLifeline} 
         disabled={lifelineUsed}
