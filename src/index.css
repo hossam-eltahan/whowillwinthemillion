@@ -3,6 +3,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Marhey:wght@700&display=swap");
+
+
 
 * {
   margin: 0;
@@ -38,4 +41,11 @@ h3 {
 }
 .container {
   @apply mx-auto px-[15px];
+}
+/* Custom font class with a unique name */
+.marhey-font {
+  font-family: "Marhey", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-optical-sizing: auto;
 }

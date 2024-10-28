@@ -1,0 +1,68 @@
+.lifeline-button {
+    background-color: #22074d; /* اللون المناسب للتصميم */
+    color: white;
+    border: none;
+    border-radius: 25px; /* شكل بيضاوي */
+    padding: 10px 20px; /* ضبط الحشوة للحجم */
+    font-size: 20px; /* حجم الخط */
+    cursor: pointer;
+    position: fixed; /* جعل الزر ثابتًا في أعلى الصفحة */
+    top: 20px; /* ضبط الموقع العلوي */
+    left: 50%; /* التمركز أفقيًا */
+    transform: translateX(-50%); /* ضبط التمركز */
+    transition: background-color 0.3s; /* انتقال سلس عند التحويم */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* إضافة ظل للعمق */
+    z-index: 1000; /* التأكد من أن الزر فوق العناصر الأخرى */
+  }
+  
+  .lifeline-button:hover {
+    background-color: #3d0a96; /* لون أغمق عند التحويم */
+  }
+  
+  .lifeline-button.used {
+    background-color: gray; /* تغيير اللون إذا تم استخدام الوسيلة */
+  }
+
+  .hint-button {
+    background-color: #22074d; /* اللون المناسب للتصميم */
+    color: white;
+    border: none;
+    border-radius: 25px; /* شكل بيضاوي */
+    padding: 10px 20px; /* ضبط الحشوة للحجم */
+    font-size: 20px; /* حجم الخط */
+    cursor: pointer;
+    position: fixed; /* جعل الزر ثابتًا في أعلى الصفحة */
+    top: 20px; /* ضبط الموقع العلوي */
+    left: 30%; /* التمركز أفقيًا */
+    transform: translateX(-50%); /* ضبط التمركز */
+    transition: background-color 0.3s; /* انتقال سلس عند التحويم */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* إضافة ظل للعمق */
+    z-index: 1000; /* التأكد من أن الزر فوق العناصر الأخرى */
+  }
+  
+  .hint-button:hover {
+    background-color: #3d0a96; /* لون أغمق عند التحويم */
+  }
+  .hint-button.used {
+    background-color: gray; /* تغيير اللون إذا تم استخدام الوسيلة */
+  }
+  .exit-button {
+    background-color: #22074d; /* اللون المناسب للتصميم */
+    color: white;
+    border: none;
+    border-radius: 25px; /* شكل بيضاوي */
+    padding: 10px 20px; /* ضبط الحشوة للحجم */
+    font-size: 20px; /* حجم الخط */
+    cursor: pointer;
+    position: fixed; /* جعل الزر ثابتًا في أعلى الصفحة */
+    top: 200px; /* ضبط الموقع العلوي */
+    right: 1220px; /* التمركز أفقيًا */
+    transform: translateX(-50%); /* ضبط التمركز */
+    transition: background-color 0.3s; /* انتقال سلس عند التحويم */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* إضافة ظل للعمق */
+    z-index: 1000; /* التأكد من أن الزر فوق العناصر الأخرى */
+  }
+  
+  .exit-button:hover {
+    background-color: #3d0a96; /* لون أغمق عند التحويم */
+  }

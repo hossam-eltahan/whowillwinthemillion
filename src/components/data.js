@@ -148,6 +148,16 @@ const data = [
       { text: "90", correct: false },
       { text: "64", correct: true },
     ],
+  },{
+    id: 16,
+    question: "اين تقع مصر",
+    answers: [
+      { text: "اسيا", correct: false },
+      { text: "افريقيا", correct: false },
+      { text: "اوروبا", correct: false },
+      { text: "امريكا", correct: true },
+    ],
   },
+
 ];
 export default data;

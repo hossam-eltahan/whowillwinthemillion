@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import useSound from "use-sound";
 import play from "../assets/sounds/play.m4a";
 import logo from "../assets/logo.png";
+
 const User = ({ setUser }) => {
   let [letsPlay, { pause }] = useSound(play);
   const [isPlaying, setIsPlaying] = useState(true);
@@ -18,8 +19,8 @@ const User = ({ setUser }) => {
   return (
     <div className="users">
       <div className="user w-[350px]">
-        <h1 className="mb-4 mx-auto w-full text-center tracking-wider text-[40px]">
-          لعبة من سيربح المليون
+        <h1 className="mb-4 mx-auto w-full text-center tracking-wider text-[40px] marhey-font">
+          مين اللي فالح؟؟
         </h1>
         <img src={logo} alt="logo" className="mb-6" />
         <input
@@ -35,6 +36,14 @@ const User = ({ setUser }) => {
           Start
         </button>
       </div>
+      <footer className="footer">
+        <p className="footer-text text-white">
+          Developed by &nbsp;
+          <a href="https://www.linkedin.com/in/hossam-eltahan-24528b253/">
+            Hossam Eltahan
+          </a>
+        </p>
+      </footer>
     </div>
   );
 };
