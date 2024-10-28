@@ -37,13 +37,17 @@ const User = ({ setUser }) => {
         </button>
       </div>
       <footer className="footer">
-        <p className="footer-text text-white">
+        <p className="footer-text">
           Developed by &nbsp;
-          <a href="https://www.linkedin.com/in/hossam-eltahan-24528b253/">
+          <a href="https://www.linkedin.com/in/hossam-eltahan-24528b253/" className="text-white">
             Hossam Eltahan
           </a>
         </p>
+        <p className="footer-text">
+          © 2024 Codezilla.com - All rights reserved.
+        </p>
       </footer>
+
     </div>
   );
 };
