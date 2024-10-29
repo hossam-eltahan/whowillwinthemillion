@@ -195,16 +195,32 @@
   font-weight: 700;
   font-style: normal;
   font-optical-sizing: auto;
+}.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
+
+.content {
+  flex: 1; /* This will take up remaining space, pushing footer to the bottom */
+}
+
 .footer {
-  background-color: rgba(2, 2, 48, 0.5); /* Use rgba for a transparent background */
+  background-color: rgba(2, 2, 48, 0.5); /* Transparent background */
   padding: 20px;
-  display: flex; /* Use flexbox */
-  justify-content: center; /* Center horizontally */
-  text-align: center; /* Center text */
-  color: white; /* Text color */
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
   font-size: 20px;
-  
+  margin-top: auto; /* Pushes footer to the bottom */
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 10px; /* Reduce padding on smaller screens */
+    font-size: 12px; /* Smaller font size for phones */
+  }
 }
 
 .users {
